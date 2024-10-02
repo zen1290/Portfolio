@@ -1,0 +1,18 @@
+@media(max-width:1275px)
+{
+    .hidden
+    {
+        display: block;
+    }
+    .part2
+    {
+        display: none;
+    }
+}
+@media(max-width:717px)
+{
+    .part1
+    {
+        display: none;
+    }
+}

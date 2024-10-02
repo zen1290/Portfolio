@@ -19,43 +19,56 @@
         margin-left: 2px;
         font-size: 10px;
     }
-    .pages1
+    .pages1,.pages3
     {
-        /* position: relative; */
+        display: inline;
         /* background-color: brown; */
     }
-    .pages
+
+    .pages,.pages2
     {
-        display: block;
+        /* display: block; */
         border: 3px solid black;
         position: absolute;
         margin-left: 230px;
-        margin-top: 10px;
-        /* opacity: 1; */
+        margin-top:-20px;
+        opacity: 0;
+         /* color: red; */
         background-color: white;
         width: 200px;
         line-height: 30px;
-        /* transition: .41s; */
+        transition: .71s;
+        padding: 10px;
         
     }
-    .pages1:hover .pages li
+    .pages2
     {
-        color: red;
-        background-color: rgb(4, 21, 255);
+        padding: 10px;
+        margin-left: 310px;
+    }
+    .pages3:hover .pages2
+      {
+       
+       
         
-        /* opacity: 1; */
-        /* margin-top: 20px; */
+        opacity: 1;
+        margin-top: 0px;
     }
-    .pages ul
-    {
-        display: block;
+    .pages1:hover .pages
+      {
+       
+       
+        
+        opacity: 1;
+        margin-top: 0px;
     }
+   
     .navbar .pages li
     {
-        display: block;
+        
         word-spacing: 2px;
     }
-    .sticky
+    .header
     {
         box-shadow: 1px 1px 3px black;
         position: sticky;
@@ -88,29 +101,19 @@
         background: gray;
         /* color: white; */
     }
-    span ,.fa-bars
+    .hidden .menu
+
     {
-        border: 2px solid black;
+        display: inline;
+        padding: 4px;
+        background-color: black;
+    }
+    .hidden span ,.fa-bars
+    {
+        /* background-color: black; */
         color: white;
     }
-    @media(max-width:1130px)
-    {
-        .hidden
-        {
-            display: block;
-        }
-        .part2
-        {
-            display: none;
-        }
-    }
-    @media(max-width:717px)
-    {
-        .part1
-        {
-            display: none;
-        }
-    }
+   
   
 
     .part
@@ -128,6 +131,10 @@
     {
         text-decoration: none;
         font-size: 25px;
+    }
+    .fa-phone
+    {
+        color: brown;
     }
     .navbar .fa-compass
     {
@@ -215,16 +222,35 @@
      {
         justify-content: center;
         width: 100%;
-        height: 800px;
-        background-image: url('/Flex/Images/1.jpg');
+        /* padding: 70px auto; */
+        height: 650px;
+        background-image: url('/Flex/Images/banner.png');
         background-size: 100% 100%;
+        animation:imagechange 10s infinite ;
         /* border: 1px solid black; */
+     }
+     @keyframes imagechange
+     {
+        0%
+        {
+            background-image: url('/Flex/Images/banner.png');
+
+        }
+        40%
+        {
+            background-image: url('/Flex/Images/banner2.png');
+        }
+        80%
+        {
+            background-image: url('/Flex/Images/banner3.png');
+        }
+
      }
     .info
     {
         /* position: absolute; */
         /* border: 4px solid; */
-        padding: 80px;
+        padding: 150px;
         
     }
     .info h1
@@ -236,6 +262,31 @@
         font-family: Nothing You Could Do;
         font-size: 90px;
         font-style: italic;
+       
+    }
+    .info span::before
+    {
+        content: "Indonesia";
+        transition: 1s;
+        animation:imagechangeh1 10s infinite ;
+
+    }
+    @keyframes imagechangeh1
+     {
+        0%
+        {
+            
+            content: "Indonesia";
+
+        }
+        40%
+        {
+            content: "Australia";
+        }
+        80%
+        {
+            content: "switzerland";
+        }
     }
     .info p
     {
@@ -243,7 +294,7 @@
         margin-top: 20px;
         text-align: center;
         color: white;
-        font-size: 30px;
+        font-size: 22px;
     }
     .butun
     {
@@ -260,6 +311,7 @@
         height: 70px;
         border: none;
         background-color: rgb(97, 207, 170);
+        border-radius: 5px;
         color: white;
         font-size: 18px;
         transition: .44s;
@@ -269,13 +321,13 @@
 
          
          background-color: rgb(207, 0, 0);
-         border-radius: 15px;
+         
     }
     .where
     {
      
         padding: 40px;
-        background-color: black;
+        background-color: rgb(8, 5, 47);
         color: white;
         text-align: center;
     }
@@ -289,7 +341,7 @@
     {
         margin-left: 10px;
         padding: 20px;
-        background-color: black;
+        background-color: rgb(8, 5, 47);
         border: 1px solid rgba(255, 255, 255, 0.378);
         border-radius: 5px;
         font-size: 15px;
@@ -326,7 +378,7 @@
     }
     .destination p
     {
-        font-size: 20px;
+        font-size: 18px;
         color: grey;
     }
     .maincard1
@@ -341,16 +393,18 @@
     .card1
     {
         width: 350px;
-        height: 300px;
+        height: 280px;
         /* border: 3px solid pink; */
         position: relative;
        
     }
     .card1 img
     {
+        filter: brightness(80%);
         width: 100%;
         height: 100%;
         border-radius: 10px;
+        
         
        
 
@@ -374,15 +428,16 @@
         font-size: 25px;
         text-shadow: 3px 3px 5px black;
          transition: .41s;
+         border: 0;
     }
     .inside button
     {
         color: white;
-
+        margin-left: 5px;
         border-radius: 50px;
         border: none;
-        /* height: 20px; */
-        padding: 5px 15px;
+        
+        padding: 5px 10px;
         background-color: rgb(97, 177, 150);
         transition: .41s;
     }
@@ -409,16 +464,18 @@
     {
         margin-top: 20px;
         width: 100%;
-        height: 250px;
-        background-image: url('/Flex/Images/5.jpg');
-       background-position: right;
-        background-size:30% 100%;
+        height: 200px;
+        /* filter: brightness(80%); */
+        background-image: url('/Flex/Images/newsletter.png');
+        
+        background-size:100% 100%;
         background-repeat: no-repeat;
         background-color: black;
         text-align: center;
         justify-content: center;
         padding: 40px;
         display: flex;
+        flex-wrap: wrap;
     }
     .subscribe h1
     {
@@ -430,7 +487,7 @@
         margin-top: 10px;
         color: grey;
         font-size: 20px;
-        text-shadow: 3px 3px 5px black;
+        /* text-shadow: 3px 3px 5px black; */
         /* border: 3px solid white; */
         width: 370px;
         
@@ -527,14 +584,20 @@
     }
     .place1 .placeinfo
     {
-        padding: 10px;
+        padding: 20px;
+        line-height: 25px;
+    }
+    .placeinfo h1
+    {
+        font-weight: normal;
+        font-size: 22px;
     }
     .placeimg button
     {
         margin-top: 10px;
         margin-left: 20px;
         position: absolute;
-        padding: 10px 30px;
+        padding: 10px 20px;
         border-radius: 50px;
         border: none;
         color: white;
@@ -570,8 +633,8 @@
     {
         margin-top: 150px;
         width: 100%;
-        height: 700px;
-        background-image: url('/Flex/Images/v.jpg');
+        height: 650px;
+        background-image: url('/Flex/Images/video.png');
         background-size: 100% 100%;
         box-sizing: border-box;
         position: relative;
@@ -647,6 +710,7 @@
     }
     .infoweb
     {
+        margin-top: 150px;
         display: flex;
         justify-content: center;
     }
@@ -669,5 +733,105 @@
         margin-bottom: 20px;
         font-size: 80px;
         color: brown;
+    }
+    .persons
+    {
+        padding: 20PX;
+        margin-top: 100px;
+        background-color: rgb(241, 247, 255);
+    }
+    .perimg
+    {
+        position: relative;
+        text-align: center;
+    }
+    .fa-quote-left
+    {
+        position: absolute;
+        margin-left: -40px;
+        margin-top: 70px;
+        color: white;
+        background-color: rgb(80, 151, 127);
+        padding: 15px;
+        border-radius: 50%;
+    }
+    .perimg p
+    {
+        /* color: black; */
+        padding: 10px;
+        margin: auto;
+        font-size: 20px;
+        width: 630px;
+    }
+    .perlst
+    {
+        color: gray;
+    }
+    .recent
+    {
+        text-align: center;
+        margin-top: 80px;
+
+    }
+    .reccard
+    {
+        text-align: left;
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .recard1:hover h2
+    {
+        color: brown;
+    }
+    .recard1 h2
+    {
+        font-weight: normal;
+        width: 350px;
+        font-size: 25px;
+    }
+    .footer
+    {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        background-color: rgb(0, 0, 84);
+    }
+    .footercard p
+    {
+        padding: 10px;
+        font-size: 15px;
+        color: gray;
+        /* width: 400px; */
+    }
+    .footercard h3,.footercard3 h3
+    {
+    color: white;
+    padding: 10px;
+    }
+    .footercard3
+    {
+        
+    }
+    .footercard3 p
+    { 
+        padding: 10px;
+        font-size: 15px;
+        color: gray;
+        width: 400px;
+    }
+    .footercard4 .insta
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .footercard4 h3
+    {
+        color: white;
+        padding: 10px;
     }
 
