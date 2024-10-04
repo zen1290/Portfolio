@@ -6,7 +6,7 @@
 }
 body
 {
-    background-color: #f8f8f8;
+    background-color:  #f8f9fa;
 }
 .container
 {
@@ -221,7 +221,7 @@ body
     line-height: 30px;
     padding: 20px;
     width: 100%;
-    height: 250px;
+    height: 270px;
     /* border: 3px solid black; */
     background-color: white;
 }
@@ -300,14 +300,33 @@ body
     background-color: white;
     border-radius: 50% 50% 50% 0px;
     color: black;
+    /* border: 3px solid black; */
+}
+.un1 .fa-wifi
+{
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 80px;
+    color: goldenrod;
+    /* border: 3px solid black; */
 }
 .un1 p
 {
-    margin-top: 90px;
+    margin-top: 0px;
     text-align: center;
     line-height: 50px;
     font-size: 25px;
     width: 150px;
+}
+.un1:hover
+{
+    color: white;
+    background-color: #c5a880;
+}
+.un1:hover  .fa-wifi
+{
+    color: white;
+    
 }
 .skills
 {
@@ -392,6 +411,7 @@ body
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     padding: 100px;
+    gap: 20px;
 }
 .card12:hover .infopart
 {
@@ -453,8 +473,8 @@ body
 .infopart
 {
     width: 100%;
-    height: 300px;
-    border: 3px solid black;
+    height: 330px;
+    /* border: 3px solid black; */
     text-align: center;
     padding: 50px;
     padding-top: 60px;
@@ -487,7 +507,7 @@ body
 {
     width: 100%;
     height: 300px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     background: url('/Grid/Images/room-1.jpg');
     background-size: 100% 100%;
 }
@@ -614,6 +634,7 @@ body
         display: grid;
         /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
         grid-template-columns: 40fr 60fr;
+        padding: 10px;
 
 
     }
@@ -625,17 +646,35 @@ body
         background-size: 100% 100%;
 
     }
+    .barimg .iconbox
+    {
+        width: 100px;
+        height: 130px;
+        background-color: #c5a880;
+        margin-top: 300px;
+        margin-left: 440px;
+        border-radius: 10px;
+    }
+    .barimg .iconbox .fa-wifi
+    {
+       
+        font-size: 60px;
+        padding: 15px;
+        padding-top: 30px;
+        color: white;
+    }
     .baritem
     {
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+        gap: 15px;
     }
     .item1 
     {
         width: 400px;
-        height: 150px;
-        padding: 10px;
-        border: 3px solid black;
+        height: 130px;
+        padding: 30px;
+        /* border: 3px solid black; */
         display: flex;
         background-color: white;
 
@@ -643,7 +682,7 @@ body
     .img1 
     {
         
-        width: 35%;
+        width: 25%;
         height: 100%;
         background: url('/Grid/Images/menu-1.jpg');
         background-size: 100% 100%;
@@ -654,12 +693,77 @@ body
         text-align: left;
         display: inline;
         font-size: 25px;
-        margin-left: 50px;
-        width: 70%;
+        margin-left: 30px;
+        width: 100px;
+        font-family: "sans-serif";
 
     }
     .item1 span
     {
         color: #c5a880;
         font-size: 20px;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    .item1:hover 
+    {
+        background-color: black;
+        color: white;
+    }
+    .testimony
+    {
+        padding: 80px;
+        text-align: center;
+    }
+    .testimony p
+    {
+        color: #c5a880;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .testimony h1
+    {
+        font-size: 60px;
+        font-weight: normal;
+    }
+    .reviews
+    {
+       margin-top: 200px;
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+       gap: 20px;
+       padding: 80px;
+    }
+    .reviews .review1
+    {
+        padding: 20px;
+        /* border: 3px solid black; */
+        background-color: white;
+        height: 300px;
+    }
+    .reviews .review1 .mainreview
+    {
+        
+        padding: 30px;
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+        
+       
+    }
+    .userimg
+    {
+        width: 100px;
+        height: 100px;
+        background: url('/Grid/Images/person_1.jpg');
+        background-size: 100% 100%;
+        border-radius: 50%;
+    }
+    .userinfo span
+    {
+        color: #c5a880;
+    }
+    .reviews .review1 p
+    {
+        font-size: 20px;
+        line-height: 30px;
     }
