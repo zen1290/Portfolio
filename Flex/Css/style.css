@@ -828,11 +828,12 @@
       padding: 0;
       margin: 0;
       width: 40%;
+      justify-content: center;
         
     }
-    .popdes
+    .popdes1,.popdes2
     {
-        
+        width: 190px;
     }
     .footercard3 p
     { 
