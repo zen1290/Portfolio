@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 body
 {
@@ -359,7 +360,7 @@ body
 }
 .find h1
 {
-    /* display: inline-block; */
+    
     margin: auto;
     width:500px;
     color: white;
@@ -410,7 +411,7 @@ body
 {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    padding: 100px;
+    padding: 50px;
     gap: 20px;
 }
 .card12:hover .infopart
@@ -672,7 +673,7 @@ body
     }
     .item1 
     {
-        width: 360px;
+        width:100%;
         height: 130px;
         padding: 30px;
         /* border: 3px solid black; */

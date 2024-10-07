@@ -1,3 +1,104 @@
+@media(max-width:1235px)
+{
+    .bar
+    {
+        display: block;
+    }
+    .bar .barimg
+    {
+        width: 100%;
+        /* padding-left: 130px; */
+        /* padding-top: 10px; */
+    }
+    
+    
+    .bar .barimg .iconbox
+    {
+        display: block;
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 45%;
+        /* border: 3px solid black; */
+    }
+    .baritem
+    {
+        display: block;
+    }
+    .item1
+    {
+       
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .img1
+    {
+        width: 100px;
+        height: 100px;
+        background: url('/Grid/Images/menu-1.jpg');
+        background-size: 100% 100%;
+        border-radius: 50%;
+    }
+    .img12
+    {
+        background: url('/Grid/Images/menu-2.jpg');
+        background-size: 100% 100%;
+    }
+    .img13
+    {
+        background: url('/Grid/Images/menu-3.jpg');
+        background-size: 100% 100%;
+    }
+    .img14
+    {
+        background: url('/Grid/Images/menu-4.jpg');
+        background-size: 100% 100%;
+    }
+    .img15
+    {
+        background: url('/Grid/Images/menu-5.jpg');
+        background-size: 100% 100%;
+    }
+    .img16
+    {
+        background: url('/Grid/Images/menu-6.jpg');
+        background-size: 100% 100%;
+    }
+    .img17
+    {
+        background: url('/Grid/Images/menu-7.jpg');
+        background-size: 100% 100%;
+    }
+    .img18
+    {
+        background: url('/Grid/Images/menu-8.jpg');
+        background-size: 100% 100%;
+    }
+    .recentcard
+    {
+        display: block;
+    }
+    .reccard1
+    {
+        width: 100%;
+        height: 400px; 
+    }
+    .recentimg, .recentimg2, .recentimg3, .recentimg4
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .recentinfo
+    {
+        display: block;
+        width: 100%;
+        background-color: black;
+    }
+}
+
+
+
 @media(max-width:1059px)
 {
     .navbar .hidden
@@ -30,6 +131,24 @@
     font-size: 40px;
    }
 }
+@media  (max-width:648px)
+{
+    .find 
+    {
+      
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .leving
+    {
+        display: inline;
+        margin: 0;
+        padding: 0;
+
+    }
+}
+
 @media  (max-width:570px)
 {
   .learn button

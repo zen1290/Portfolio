@@ -1,0 +1,102 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+
+}
+
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+   
+    color: white;
+    background-color: rgb(46, 0, 89);
+}
+.logo h1
+{
+    padding: 0px;
+    
+}
+.navbar .list
+{
+    padding: 20px;
+}
+.navbar .list li
+{
+    display: inline;
+
+    padding-left: 10px;
+    font-size: 20px;
+   
+}
+.navbar .list a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.navbar .social
+{
+    padding: 20px;
+    padding-top: 30px;
+}
+.navbar .social a
+{
+    text-decoration: none;
+    color: white;
+}
+.navbar .social .fa-linkedin,.navbar .social .fa-facebook,.navbar .social .fa-instagram
+{
+    display: inline;
+    padding-left: 10px;
+    font-size: 20px;
+   
+}
+.container
+{
+    margin: 0;
+    padding: 100px;
+    background-color:rgb(46, 0, 89) ;
+    color: rgba(255, 255, 255, 0.724);
+}
+.container .rgb
+{
+    display: inline;
+    background: linear-gradient(45deg,purple 10%,blue );
+    color: transparent;
+    background-clip: text;
+    font-size: 60px;
+}
+.container .passport
+{
+    background: url();
+}
+.container .projects
+{
+    margin-top: 200px;
+}
+.container .projects h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.projects .allprojects
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.projects .allprojects .project1 img,.projects .allprojects .project2 img
+{
+    width: 400px;
+    height:300px;
+}
