@@ -1,0 +1,266 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainhader
+{
+    background: url('../Images/mainbackground.png');
+    background-size: 100% 100%;
+    padding: 10px 40px;
+}
+.header
+{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 10px 40px; */
+}
+.header .logo img
+
+{
+    width: 200px;
+    /* border: 3px solid black; */
+}
+.header .navbar li a
+{
+    text-decoration: none;
+    color: #09B3B0;
+    text-transform: capitalize;
+}
+.header .navbar li a:hover
+{
+    color: #FF9F00;
+}
+.header .navbar li 
+{
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+}
+.header .navbar li button
+{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #09B3B0;
+    color: white;
+
+}
+.header .fa-magnifying-glass
+{
+    padding: 7px;
+   
+    background-color: #09B3B0;
+    color: white;
+    border-radius: 50%;
+}
+.headerinfo
+{
+    /* margin-top: 10px; */
+    padding: 80px 10px;
+   
+}
+.headerinfo h1
+{
+    font-family: "Winter Insight";
+    font-size: 105px;
+    color: #FF9F00;
+    text-align: center;
+    margin: 0;
+    width: 400px;
+    font-weight: normal;
+    /* border: 3px solid black; */
+
+}
+.headerinfo h2
+{
+    /* font-family: "Winter Insight"; */
+    /* font-size: 135px; */
+    color: #FF9F00;
+    text-align: center;
+    font-weight: normal;
+    
+    width: 400px;
+    margin: 0;
+    /* border: 3px solid black; */
+
+}
+.headerinfo p
+{
+    font-family: "Winter Insight";
+    font-size: 25px;
+    
+    width: 400px;
+    margin: 0;
+    text-align: center;
+}
+.adviser
+{
+    border: 1px solid #09B3B0;
+    background-color: #09B3B0;
+    color: white;
+    text-align: center;
+    font-family: "Yrsa";
+    font-size: 30px;
+    word-spacing: 7px;
+
+}
+.content
+{
+    text-align: center;
+    background: url('../Images/1.png');
+    background-size: 100% 100%;
+}
+.adpart2 button
+{
+    
+    color: white;
+}
+.advisorinfo
+{
+    display: flex;
+    padding: 30px 100px;
+    text-align: left;
+    justify-content: space-between;
+}
+.adpart1
+{
+    display: flex;
+   
+}
+.adpart1 .addiscrip
+{
+    padding: 0px 10px;
+    /* border: 3px solid black; */
+}
+.adpart1 .addiscrip p
+{
+    width: 500px;
+}
+.adpart2 button
+{
+    padding: 10px 70px;
+    background-color: #09B3B0;
+    font-size: 15px;
+    border:  none;
+    margin-top: 10px;
+
+}
+.adpart2 button:nth-child(3)
+{
+    padding:10px 74px ;
+}
+.adpart2 span
+{
+    background-color: #09B3B0;
+    padding: 3px;
+}
+.adpart2 p
+{
+    font-size: 18px;
+}
+
+.content .x,.content .y
+{
+    padding: 10px 60px;
+    margin-left: 10px;
+    border: none;
+    background-color: #09B3B0;
+}
+.content .y
+{
+    padding: 10px 55px;
+    background-color: #FF9F00;
+}
+.container
+{
+    background: url('../Images/2.png');
+    background-size: 100% 100%;
+    text-align: center;
+   
+}
+.mainprivate
+{
+    display: flex;
+    justify-content: space-around;
+}
+.hero
+{
+    text-align: center;
+    background-color: #EDF8F9;
+    border: 1px solid #EDF8F9;
+}
+.hero1 p
+{
+    text-align: left;
+    
+}
+.container1
+{
+ text-align: center;
+ padding: 20px;
+ line-height: 25px;
+
+
+}
+.container1 p
+{
+    width: 900px;
+    margin: auto;
+    text-align: left;
+}
+.container1main
+{
+    display:flex ;
+    justify-content: center;
+
+}
+.containerpart1 li 
+{
+    list-style: none;
+}
+.containerpart1 li a
+{
+    text-decoration: none;
+}
+.container1 button
+{
+    margin-top: 30px;
+    padding: 10px 40px;
+    border: 1px solid #09B3B0 ;
+    background-color: white;
+    color: #09B3B0;
+}
+.footer
+{
+    background-color: #09B3B0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+.footerlogo2 span
+{
+    font-size: 18px;
+}
+.footerlogo
+{
+    display: flex;
+}
+.footerlogo2 
+{
+    padding: 30px;
+}
+.fa-facebook,.fa-discord,.fa-instagram,.fa-pinterest,.fa-twitter,.fa-youtube
+{
+    margin-left: 10px;
+}
+.footerpart2 p:last-child
+{
+    width: 400px;
+}
+
