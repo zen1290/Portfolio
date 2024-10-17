@@ -1,0 +1,468 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    background:linear-gradient(#9f050d83,#9f050d83),
+     url('../Images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png');
+    background-size: 100% 100%;
+    
+    
+    text-align: center;
+    padding-bottom: 100px;
+}
+.logo
+{
+    /* border: 3px solid black; */
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+}
+.logo span
+{
+    font-family:"Lato";
+}
+.navbar
+{
+    text-align: center;
+}
+.navbar li 
+{
+    padding: 15px;
+    display: inline;
+    
+}
+.navbar li a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.764);
+    transition: .71s;
+   font-family:"Lato";
+}
+.navbar li:hover a
+{
+    color: white;
+    font-size: 20px;
+}
+.header h1
+{
+    font-size: 150px;
+    font-family: "Grand Hotel";
+    color: white;
+    font-weight: normal;
+    
+    padding-top: 20px;
+    margin: 0;
+}
+.header p
+{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.743);
+    width: 450px;
+    margin: auto;
+}
+.header button
+{
+    background-color: white;
+    color: #b54349;
+    border: none;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+    
+}
+.populardish
+{
+   
+    
+    background:
+     url('../Images/2background.png');
+    background-size: 100% 100%;
+    
+    margin: 0;
+
+    
+    
+    text-align: center;
+}
+.popular
+{
+    
+   
+}
+.popular h1
+{
+    font-family: "Grand Hotel";
+    font-size: 70px;
+    font-weight: normal;
+    color: #b54349;
+   
+    padding: 30px;
+    margin: 0;
+}
+.popular p
+{
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+    font-family:"Lato";
+   
+}
+.dish
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 80px;
+
+}
+.dish h3
+{
+    font-family: "Grand Hotel";
+    font-size: 40px;
+    font-weight: normal;
+    color: #b54349;
+    padding: 0px;
+    margin: 0;
+
+}
+.dish p
+{
+    font-family:"Lato";
+    font-size: 13px;
+    width: 220px;
+}
+.dish1 .img1
+{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background:url('../Images/img1.png');
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.dish2 .img2
+{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background:url('../Images/img2.png');
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.dish3 .img3
+{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background:url('../Images/img3.png');
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.statastic
+{
+    text-align: center;
+    background:linear-gradient(#b5434990,#b5434990),
+    url('../Images/stats.png');
+    background-size: 100% 100%;
+}
+.statastic h1
+{
+    font-family: "Grand Hotel";
+    font-size: 70px;
+    font-weight: normal;
+    color: white;
+   
+    padding: 30px;
+    margin: 0;
+}
+.statastic p
+{
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+    font-family:"Lato";
+    color: white;
+   
+}
+.mainstats
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 80px;
+
+}
+.stat1
+{
+    border: 3px dashed white;
+    padding: 50px;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 100px;
+    color: white;
+   
+
+}
+.menu
+{
+    text-align: center;
+    background-color: #eee6cc;
+}
+.menu h1
+{
+    font-family: "Grand Hotel";
+    font-size: 70px;
+    font-weight: normal;
+    color: #b54349;
+   
+    padding: 30px;
+    margin: 0;
+}
+.menu p
+{
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+    font-family:"Lato";
+   
+}
+.mainmenu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+    
+}
+.menu1,.menu2,.menu3,.menu4
+{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    width: 500px;
+}
+
+.menuinfo h4
+{
+    font-family: "Grand Hotel";
+    font-size: 40px;
+    font-weight: normal;
+    color: #b54349;
+   
+   
+    margin: 0;
+
+}
+.menu1 p
+{
+    font-size: 13px;
+    display: inline-block;
+    width: 200px;
+    font-family: "lato";
+    
+}
+.delicious
+{
+    display: flex;
+
+}
+.delimg
+{
+    width: 50%;
+    height: 700px;
+    background:linear-gradient(#b5434985,#b5434985),
+     url('../Images/pasta.png');
+     background-size: 100% 100%;
+}
+.delinfo
+{
+    background: white;
+    text-align: left;
+    padding: 240px 70px;
+}
+.delinfo h1
+{
+    font-family: "Grand Hotel";
+    font-size: 80px;
+    font-weight: normal;
+    color: #b54349;
+   
+  margin: 0;
+    
+}
+.delinfo p
+{
+    font-size: 20px;
+    width: 400px;
+}
+.delinfo button
+
+{
+    color: white;
+    background-color: #b54349;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px;
+}
+.ordermenu
+{
+    background-color:  #eee6cc;
+    text-align: center;
+}
+.ordermenu h1
+{
+    font-family: "Grand Hotel";
+    font-size: 80px;
+    font-weight: normal;
+    color: #b54349;
+   
+  margin: 0;
+
+}
+.ordermenu p
+{
+    font-size: 15px;
+    font-family: "lato";
+    width: 400px;
+    margin: auto;
+    
+}
+.menucard
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menucard1
+{
+ background-color: white;
+ width: 300px;
+ 
+ margin-top: 60px;
+ border-radius: 15px;
+
+}
+.menucard1 p
+{
+    width: 200px;
+
+}
+.menucard1 button
+{
+    margin-top: 30px;
+    color: white;
+    background-color: #b54349;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: normal ;
+}
+.menucard1 h3
+{
+    font-family: "Grand Hotel";
+    font-size: 40px;
+    font-weight: normal;
+    color: #b54349;
+    
+   
+    margin: 0;
+    margin-top: 20px;
+
+}
+.chef
+{
+    background: linear-gradient(white 45%,rgba(255, 255, 255, 0.749)),
+    url('../Images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png');
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 60px;
+}
+.chef img
+{
+    margin-top: 50px;
+    border-radius: 50%
+
+
+}
+.chef p
+{
+    font-size:40px ;
+    width: 700px;
+    margin-top: 30px;
+}
+.subscribe
+{
+    text-align: center;
+    background-color: #eee6cc;
+    padding: 40px;
+}
+.subscribe h1
+{
+    
+    font-family: "Grand Hotel";
+    font-size: 80px;
+    font-weight: normal;
+    color: #b54349;
+   
+  margin: 0;
+  /* padding-top: 60px; */
+}
+.subscribe p
+{
+    font-size: 25px;
+    font-family: "lato";
+    width: 700px;
+    margin: auto;
+    line-height: 40px;
+}
+.subscribe input
+{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    margin-top: 30px;
+}
+.subscribe button
+{
+    padding: 10px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    background-color: #b54349;
+}
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.footer li
+{
+    list-style-type:none;
+    line-height: 20px;
+}
+.footer .part1 p
+{
+    width: 400px;
+}
+.footer h2,.footer h1
+{
+    font-family: "Grand Hotel";
+}
+.footer h1
+{
+
+}
