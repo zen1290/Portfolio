@@ -30,4 +30,8 @@
     {
         display: none;
     }
+    .info h1
+    {
+        font-size: 60px;
+    }
 }

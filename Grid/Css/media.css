@@ -130,12 +130,37 @@
    {
     font-size: 40px;
    }
+   .content
+   {
+    margin-top: 120%;
+   }
+   .main 
+   {
+    padding: 60px;
+   }
+   .unwind h1
+   {
+    width: 400px;
+   }
+   .find h1
+   {
+    font-size: 40px;
+   }
+   .find p
+   {
+    width: 200px;
+    text-align: center;
+   }
+   .playbutun h1
+   {
+    font-size: 40px;
+   }
 }
 @media  (max-width:648px)
 {
     .find 
     {
-      
+        text-align: center;
         display: block;
         margin: 0;
         padding: 0;
