@@ -8,6 +8,31 @@ body
 {
 
 }
+button
+{
+    padding: 10px 20px;
+   
+    background-color: transparent;
+    
+    border-radius: 50px;
+    background: linear-gradient(45deg,purple 10%,blue );
+    color: transparent;
+    background-clip: border-box;
+    color: white;
+    border: none;
+}
+.container .bigcircle
+{
+    width: 400px;
+    height: 400px;
+    
+    background: linear-gradient(45deg,purple 10%,blue );
+    border-radius: 50%;
+}
+.mainbig
+{
+    
+}
 
 
 
@@ -95,8 +120,9 @@ body
     gap: 20px;
     text-align: center;
 }
-.projects .allprojects .project1 img,.projects .allprojects .project2 img
+.projects .allprojects .project1 img,.projects .allprojects .project2 img,.projects .allprojects .project3 img,.projects .allprojects .project4 img
 {
     width: 400px;
     height:300px;
 }
+
