@@ -884,39 +884,34 @@ body
     /* border: 3px solid black; */
     width: 300px;
     margin-left: 20px;
+    display: block;
     
     
     background-color: white;
+}
+.recentimg img,.recentimg2 img, .recentimg3 img, .recentimg4 img
+{
+    height: 250px;
+    /* width: 100%; */
+    
+    border-radius: 5px 5px 0px 0px;
+    display: block;
 }
 .recentimg, .recentimg2, .recentimg3, .recentimg4
 {
     /* width: 240px; */
     height: 250px;
-    background: url('/Grid/Images/image_1.jpg');
-    background-size: 100% 100%;
+    
     border-radius: 5px 5px 0px 0px;
     display: block;
 }
-.recentimg2
-{
-    background: url('/Grid/Images/image_2.jpg');
-    background-size: 100% 100%;
-}
-.recentimg3
-{
-    background: url('/Grid/Images/image_3.jpg');
-    background-size: 100% 100%;
-}
-.recentimg4
-{
-    background: url('/Grid/Images/image_4.jpg');
-    background-size: 100% 100%;
-}
+
 .recentinfo
 {
     padding: 20px;
     line-height: 40px;
     background-color: white;
+    display: block;
     
 }
 .reccard1 p
