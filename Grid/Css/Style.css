@@ -892,7 +892,7 @@ body
 .recentimg img,.recentimg2 img, .recentimg3 img, .recentimg4 img
 {
     height: 250px;
-    /* width: 100%; */
+    width: 300px;
     
     border-radius: 5px 5px 0px 0px;
     display: block;
