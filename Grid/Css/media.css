@@ -75,26 +75,8 @@
         background: url('/Grid/Images/menu-8.jpg');
         background-size: 100% 100%;
     }
-    .recentcard
-    {
-        display: block;
-    }
-    .reccard1
-    {
-        width: 100%;
-        height: 400px; 
-    }
-    .recentimg, .recentimg2, .recentimg3, .recentimg4
-    {
-        width: 100%;
-        height: 400px;
-    }
-    .recentinfo
-    {
-        display: block;
-        width: 100%;
-        background-color: black;
-    }
+  
+   
 }
 
 
@@ -155,6 +137,7 @@
    {
     font-size: 40px;
    }
+   
 }
 @media  (max-width:648px)
 {
@@ -172,12 +155,17 @@
         padding: 0;
 
     }
+    .hashtag
+    {
+        height: initial;
+    }
+
 }
 
 @media  (max-width:570px)
 {
   .learn button
   {
-    width: 100%;
+    width: 90%;
   }
 }

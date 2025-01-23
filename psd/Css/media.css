@@ -1,0 +1,14 @@
+@media(max-width: 768px)
+{
+    .chef p
+    {
+        width: 300px;
+    }
+    .subscribe p
+    {
+        font-size: 20px;
+        width: 400px;
+    }
+    
+}
+    

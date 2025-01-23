@@ -1,0 +1,20 @@
+@media  (max-width:764px)
+{
+    .navbar
+    {
+        display: none;
+    }
+    .advisorinfo
+    {
+        padding: 0px 5px;
+    }
+    .adpart1 .addiscrip p
+{
+    width: 300px;
+}
+.container1 p
+{
+    width: 300px;
+}
+    
+}
